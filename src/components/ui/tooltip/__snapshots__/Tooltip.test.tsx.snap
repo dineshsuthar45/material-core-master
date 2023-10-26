@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip component should render correctly 1`] = `
+<div>
+  <div
+    aria-label=""
+    class="m-tooltip-root tooltip-container"
+    data-mui-internal-clone-element="true"
+  >
+    <button>
+      Hello World!
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Tooltip component should render with tooltip correctly 1`] = `
+<div>
+  <div
+    aria-label="Some tooltip text here"
+    class="m-tooltip-root tooltip-container"
+    data-mui-internal-clone-element="true"
+  >
+    <button>
+      Hello World!
+    </button>
+  </div>
+</div>
+`;

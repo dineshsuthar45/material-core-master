@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MFormControlLabel should render correctly 1`] = `
+<div>
+  <div
+    class="m-form-control-label top"
+  >
+    <div
+      aria-label="Text on hover"
+      class="material-tooltip-root tooltip-label tooltip-container"
+      data-mui-internal-clone-element="true"
+    >
+      <label>
+        Component label
+      </label>
+    </div>
+    <div
+      class="label-children"
+    >
+      <div>
+        This is a custom component
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MFormControlLabel should render with no tooltip 1`] = `
+<div>
+  <div
+    class="m-form-control-label top"
+  >
+    <div
+      aria-label=""
+      class="material-tooltip-root tooltip-label tooltip-container"
+      data-mui-internal-clone-element="true"
+    >
+      <label>
+        Component label
+      </label>
+    </div>
+    <div
+      class="label-children"
+    >
+      <div>
+        This is a custom component
+      </div>
+    </div>
+  </div>
+</div>
+`;

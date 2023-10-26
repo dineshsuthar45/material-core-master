@@ -1,0 +1,54 @@
+.date-range-root {
+	width: 100%;
+
+	* {
+		font-family: Inter;
+	}
+
+	.tooltip-label {
+		color: var(--m-colour-greyScale-500);
+	}
+
+	.selected {
+		padding: 4px 4px 4px 0px;
+		display: flex;
+		cursor: pointer;
+		position: relative;
+
+		&:before {
+			content: '';
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			border-bottom: 1px solid transparent;
+		}
+
+		&.disabled {
+			pointer-events: none;
+		}
+
+		&:focus,
+		&.menu-open {
+			border-color: var(--m-colour-blue);
+		}
+
+		.selected-date {
+			flex-grow: 1;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			overflow: hidden;
+		}
+		.chevron {
+			margin-left: auto;
+		}
+	}
+
+	.calendar-menu {
+		position: relative;
+
+		.rdrDateRangePickerWrapper {
+			position: absolute;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		}
+	}
+}

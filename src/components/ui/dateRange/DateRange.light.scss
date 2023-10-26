@@ -1,0 +1,103 @@
+.date-range-root.light {
+	.disabled *,
+	.placeholder.disabled {
+		border-color: rgba(0, 0, 0, 0.3);
+		color: rgba(0, 0, 0, 0.3);
+
+		svg {
+			fill: rgba(0, 0, 0, 0.3);
+		}
+	}
+
+	.selected {
+		&:before {
+			border-bottom-color: var(--m-colour-greyScale-200);
+		}
+
+		&:hover:before {
+			border-bottom: 2px solid rgba(0, 0, 0, 0.87);
+			transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+		}
+	}
+
+	.placeholder {
+		color: var(--m-colour-greyScale-400);
+	}
+
+	.rdrDateRangePickerWrapper {
+		border-radius: 2px;
+
+		.rdrDefinedRangesWrapper {
+			.rdrStaticRanges {
+				button {
+					&.rdrStaticRange {
+						&.rdrStaticRangeSelected .rdrStaticRangeLabel {
+							color: var(--m-colour-blue);
+						}
+
+						.rdrStaticRangeLabel {
+							font-weight: 600;
+						}
+					}
+				}
+			}
+		}
+
+		.rdrCalendarWrapper {
+			.rdrDateDisplayWrapper {
+				.rdrDateDisplay {
+					color: var(--m-colour-blue);
+
+					.rdrDateInput.rdrDateDisplayItem {
+						border-radius: 2px;
+					}
+				}
+			}
+
+			.rdrMonthAndYearWrapper {
+				.rdrNextPrevButton.rdrPprevButton {
+					i {
+						transform: translate(-3px, 0px) scale(1.2);
+					}
+				}
+
+				.rdrMonthAndYearPickers {
+					.rdrMonthPicker,
+					.rdrYearPicker {
+						select {
+							color: var(--m-colour-greyScale-800);
+						}
+					}
+				}
+
+				.rdrNextPrevButton.rdrNextButton {
+					i {
+						transform: translate(3px, 0px) scale(1.2);
+					}
+				}
+			}
+		}
+
+		.rdrMonths {
+			.rdrDayNumber span {
+				color: var(--m-colour-greyScale-800);
+			}
+
+			.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span,
+			.rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber span,
+			.rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber span,
+			.rdrDay:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span {
+				color: white;
+			}
+
+			.rdrWeekDay,
+			.rdrMonthName {
+				color: var(--m-colour-greyScale-500);
+			}
+
+			.rdrDayPassive .rdrDayNumber span {
+				color: var(--m-colour-greyScale-200);
+			}
+		}
+	}
+}

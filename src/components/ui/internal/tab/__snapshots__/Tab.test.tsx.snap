@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab should render correctly 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit tab-root light css-xj3am1-MuiButtonBase-root-MuiTab-root"
+    color="primary"
+    role="tab"
+    tabindex="-1"
+    type="button"
+  >
+    Tab label
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

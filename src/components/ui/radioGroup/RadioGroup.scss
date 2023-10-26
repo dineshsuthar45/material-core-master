@@ -1,0 +1,13 @@
+.radio-group-root {
+	.label-children {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	&.row {
+		.label-children {
+			flex-direction: row;
+		}
+	}
+}

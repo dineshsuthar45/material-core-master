@@ -1,0 +1,43 @@
+.search-root {
+	.dark {
+		&.MuiTextField-root {
+			.MuiFilledInput-root:not(.Mui-disabled) {
+				background-color: var(--m-colour-greyScale-900);
+
+				&:hover:after {
+					border: 1px solid var(--m-colour-greyScale-700);
+				}
+			}
+
+			.MuiOutlinedInput-root {
+				&.Mui-focused {
+					.MuiOutlinedInput-notchedOutline {
+						border-color: var(--m-colour-greyScale-600);
+					}
+				}
+
+				.MuiOutlinedInput-notchedOutline {
+					border-color: var(--m-colour-greyScale-600);
+				}
+
+				&:hover .MuiOutlinedInput-notchedOutline {
+					border-color: white;
+				}
+			}
+
+			.MuiInput-root {
+				&:after {
+					border-bottom: 1px solid var(--m-colour-greyScale-400);
+				}
+
+				&.Mui-focused:after {
+					border-bottom: 1px solid var(--m-colour-lightBlue);
+				}
+
+				&:hover:after {
+					border-bottom: 1px solid white;
+				}
+			}
+		}
+	}
+}

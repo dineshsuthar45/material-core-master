@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateRange should render correctly 1`] = `
+<div>
+  <div
+    class="date-range-root light"
+  >
+    <div
+      class="material-form-control-label top"
+    >
+      <div
+        aria-label=""
+        class="material-tooltip-root tooltip-label tooltip-container"
+        data-mui-internal-clone-element="true"
+      >
+        <label>
+          Date Picker
+        </label>
+      </div>
+      <div
+        class="label-children"
+      >
+        <div
+          class="selected"
+        >
+          <div
+            aria-label=""
+            class="material-tooltip-root tooltip-container"
+            data-mui-internal-clone-element="true"
+          >
+            <span
+              class="selected-date"
+            >
+              16 Dec 2022 - 16 Dec 2022
+            </span>
+          </div>
+          <div
+            class="chevron"
+          >
+            <svg
+              fill="#6F7880"
+              height="10"
+              viewBox="0 0 10 10"
+              width="10"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m.5 3 4.1 4.1c.2.2.3.3.4.3s.2 0 .4-.2L9.6 3a.608.608 0 0 0 0-.8.608.608 0 0 0-.8 0L5 6.1 1.2 2.3a.483.483 0 0 0-.7 0 .483.483 0 0 0 0 .7Z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="calendar-menu"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

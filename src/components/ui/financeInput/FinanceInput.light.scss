@@ -1,0 +1,58 @@
+.finance-input-root.light {
+	.tooltip-root {
+		.tooltip-label {
+			color: var(--m-colour-greyScale-600);
+		}
+	}
+
+	.container {
+		border: 1px solid var(--m-colour-greyScale-100);
+
+		&.middle-hovered .button,
+		&.middle-hovered.feedback .button,
+		&.middle-hovered {
+			border-color: var(--m-colour-greyScale-300);
+			transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+		}
+
+		&.is-focused:not(.feedback):not(.middle-hovered) {
+			border-bottom-color: var(--m-colour-blue);
+		}
+
+		.button {
+			background: var(--m-colour-greyScale-50);
+			border: 1px solid var(--m-colour-greyScale-100);
+			color: var(--m-colour-greyScale-600);
+
+			&:hover {
+				background: var(--m-colour-blue);
+			}
+		}
+
+		.middle {
+			background-color: var(--m-colour-greyScale-50);
+			textarea {
+				background-color: var(--m-colour-greyScale-50);
+				&::placeholder {
+					color: var(--m-colour-greyScale-400);
+				}
+			}
+		}
+	}
+
+	&.integration-mode {
+		.container {
+			border: none;
+
+			.button {
+				color: var(--m-colour-greyScale-600);
+				border: none;
+
+				&:hover {
+					color: var(--m-colour-greyScale-600);
+					background-color: var(--m-colour-greyScale-50);
+				}
+			}
+		}
+	}
+}

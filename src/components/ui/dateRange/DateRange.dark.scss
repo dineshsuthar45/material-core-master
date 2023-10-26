@@ -1,0 +1,130 @@
+.date-range-root.dark {
+	.rdrDefinedRangesWrapper,
+	.rdrStaticRange,
+	.rdrMonthAndYearWrapper,
+	.rdrMonths {
+		background-color: var(--m-colour-greyScale-800);
+	}
+
+	.rdrDateDisplayWrapper,
+	.rdrNextPrevButton.rdrPprevButton,
+	select option,
+	.rdrNextPrevButton.rdrNextButton {
+		background-color: var(--m-colour-greyScale-700);
+	}
+
+	.disabled *,
+	.placeholder.disabled {
+		border-color: rgba(255, 255, 255, 0.3);
+		color: rgba(255, 255, 255, 0.3);
+
+		svg {
+			fill: rgba(255, 255, 255, 0.3);
+		}
+	}
+
+	.selected {
+		&:before {
+			border-bottom-color: var(--m-colour-greyScale-600);
+		}
+		&:hover:before {
+			border-bottom: 2px solid rgba(255, 255, 255, 0.87);
+			transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+		}
+	}
+
+	.placeholder {
+		color: var(--m-colour-greyScale-600);
+	}
+
+	.rdrDateRangePickerWrapper {
+		border: 1px solid var(--m-colour-greyScale-900);
+		background: var(--m-colour-greyScale-800);
+		border-radius: 2px;
+
+		.rdrDefinedRangesWrapper {
+			border-color: var(--m-colour-greyScale-900);
+
+			.rdrStaticRanges {
+				button {
+					&.rdrStaticRange {
+						border-color: var(--m-colour-greyScale-900);
+						&:hover {
+							background-color: var(--m-colour-greyScale-900);
+						}
+
+						&.rdrStaticRangeSelected .rdrStaticRangeLabel {
+							color: var(--m-colour-lightBlue);
+						}
+
+						.rdrStaticRangeLabel {
+							color: var(--m-colour-greyScale-500);
+							background-color: transparent;
+							font-weight: 600;
+						}
+					}
+				}
+			}
+		}
+
+		.rdrCalendarWrapper {
+			.rdrDateDisplayWrapper {
+				.rdrDateDisplay {
+					color: var(--m-colour-lightBlue);
+
+					.rdrDateInput.rdrDateDisplayItem {
+						background: var(--m-colour-greyScale-900);
+						border-radius: 2px;
+
+						input {
+							color: white;
+						}
+					}
+				}
+			}
+
+			.rdrMonthAndYearWrapper {
+				.rdrNextPrevButton.rdrPprevButton {
+					i {
+						border-color: transparent var(--m-colour-greyScale-300) transparent transparent;
+						transform: translate(-3px, 0px) scale(1.2);
+					}
+				}
+
+				.rdrMonthAndYearPickers {
+					.rdrMonthPicker,
+					.rdrYearPicker {
+						select {
+							color: var(--m-colour-greyScale-50);
+							background: url('data:image/svg+xml;utf8,<svg width=%279px%27 height=%276px%27 viewBox=%270 0 9 6%27 version=%271.1%27 xmlns=%27http://www.w3.org/2000/svg%27 xmlns:xlink=%27http://www.w3.org/1999/xlink%27><g id=%27Artboard%27 stroke=%27none%27 stroke-width=%271%27 fill=%27none%27 fill-rule=%27evenodd%27 transform=%27translate%28-636.000000, -171.000000%29%27 fill-opacity=%270.368716033%27><g id=%27input%27 transform=%27translate%28172.000000, 37.000000%29%27 fill=%27%23f2f6fb%27 fill-rule=%27nonzero%27><g id=%27Group-9%27 transform=%27translate%28323.000000, 127.000000%29%27><path d=%27M142.280245,7.23952813 C141.987305,6.92353472 141.512432,6.92361662 141.219585,7.23971106 C140.926739,7.5558055 140.926815,8.06821394 141.219755,8.38420735 L145.498801,13 L149.780245,8.38162071 C150.073185,8.0656273 150.073261,7.55321886 149.780415,7.23712442 C149.487568,6.92102998 149.012695,6.92094808 148.719755,7.23694149 L145.498801,10.7113732 L142.280245,7.23952813 Z%27 id=%27arrow%27></path></g></g></g></svg>')
+								no-repeat;
+							background-position: right 8px center;
+						}
+					}
+				}
+
+				.rdrNextPrevButton.rdrNextButton {
+					i {
+						border-color: transparent transparent transparent var(--m-colour-greyScale-300);
+						transform: translate(3px, 0px) scale(1.2);
+					}
+				}
+			}
+		}
+
+		.rdrMonths {
+			.rdrDayNumber span {
+				color: var(--m-colour-greyScale-100);
+			}
+
+			.rdrWeekDay,
+			.rdrMonthName {
+				color: var(--m-colour-greyScale-300);
+			}
+
+			.rdrDayPassive .rdrDayNumber span {
+				color: var(--m-colour-greyScale-600);
+			}
+		}
+	}
+}

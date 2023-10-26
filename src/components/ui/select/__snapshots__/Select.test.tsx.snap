@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select render with options 1`] = `
+<div>
+  <div
+    class="MuiFormControl-root select-root light css-1nrlq1o-MuiFormControl-root"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-standard css-z5e0z9-MuiFormLabel-root-MuiInputLabel-root"
+      data-shrink="false"
+      id="test-id-label"
+    >
+      Do you agree with T&Cs?
+    </label>
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall  css-a3l6o-MuiInputBase-root-MuiInput-root-MuiSelect-root"
+      options="[object Object],[object Object]"
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="test-id-label test-id"
+        class="MuiSelect-select MuiSelect-standard MuiInputBase-input MuiInput-input MuiInputBase-inputSizeSmall css-jd1zyo-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+        id="test-id"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          class="notranslate"
+        >
+          ​
+        </span>
+      </div>
+      <input
+        aria-hidden="true"
+        class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+        tabindex="-1"
+        value=""
+      />
+      <svg
+        class="MuiSelect-icon MuiSelect-iconStandard css-19xtc65-MuiSelect-icon"
+        fill="#6F7880"
+        height="10"
+        viewBox="0 0 10 10"
+        width="10"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m.5 3 4.1 4.1c.2.2.3.3.4.3s.2 0 .4-.2L9.6 3a.608.608 0 0 0 0-.8.608.608 0 0 0-.8 0L5 6.1 1.2 2.3a.483.483 0 0 0-.7 0 .483.483 0 0 0 0 .7Z"
+        />
+      </svg>
+    </div>
+    <p
+      class="MuiFormHelperText-root MuiFormHelperText-sizeSmall css-u6loev-MuiFormHelperText-root"
+    />
+  </div>
+</div>
+`;
+
+exports[`Select should render correctly 1`] = `
+<div>
+  <div
+    class="MuiFormControl-root select-root light css-1nrlq1o-MuiFormControl-root"
+  >
+    <label
+      class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-standard MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeSmall MuiInputLabel-standard css-z5e0z9-MuiFormLabel-root-MuiInputLabel-root"
+      data-shrink="false"
+      id="test-id-label"
+    >
+      Do you agree with T&Cs?
+    </label>
+    <div
+      class="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-sizeSmall  css-a3l6o-MuiInputBase-root-MuiInput-root-MuiSelect-root"
+      options=""
+    >
+      <div
+        aria-expanded="false"
+        aria-haspopup="listbox"
+        aria-labelledby="test-id-label test-id"
+        class="MuiSelect-select MuiSelect-standard MuiInputBase-input MuiInput-input MuiInputBase-inputSizeSmall css-jd1zyo-MuiSelect-select-MuiInputBase-input-MuiInput-input"
+        id="test-id"
+        role="button"
+        tabindex="0"
+      >
+        <span
+          class="notranslate"
+        >
+          ​
+        </span>
+      </div>
+      <input
+        aria-hidden="true"
+        class="MuiSelect-nativeInput css-yf8vq0-MuiSelect-nativeInput"
+        tabindex="-1"
+        value=""
+      />
+      <svg
+        class="MuiSelect-icon MuiSelect-iconStandard css-19xtc65-MuiSelect-icon"
+        fill="#6F7880"
+        height="10"
+        viewBox="0 0 10 10"
+        width="10"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="m.5 3 4.1 4.1c.2.2.3.3.4.3s.2 0 .4-.2L9.6 3a.608.608 0 0 0 0-.8.608.608 0 0 0-.8 0L5 6.1 1.2 2.3a.483.483 0 0 0-.7 0 .483.483 0 0 0 0 .7Z"
+        />
+      </svg>
+    </div>
+    <p
+      class="MuiFormHelperText-root MuiFormHelperText-sizeSmall css-u6loev-MuiFormHelperText-root"
+    />
+  </div>
+</div>
+`;

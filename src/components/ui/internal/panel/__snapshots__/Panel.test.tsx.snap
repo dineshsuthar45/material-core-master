@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Panel should render correctly 1`] = `
+<div>
+  <div
+    class="panel-root"
+    id="1"
+  >
+    <div
+      class="MuiBox-root css-0"
+    >
+      <div>
+        Test
+      </div>
+    </div>
+  </div>
+</div>
+`;

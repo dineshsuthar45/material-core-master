@@ -1,0 +1,46 @@
+.m-form-control-label {
+	display: flex;
+
+	&.top {
+		flex-direction: column;
+	}
+
+	&.end {
+		flex-direction: row-reverse;
+		justify-content: flex-end;
+	}
+
+	&.bottom {
+		flex-direction: column-reverse;
+	}
+
+	&.start {
+		flex-direction: row;
+	}
+
+	&.start,
+	&.end {
+		align-items: center;
+	}
+
+	&.disabled {
+		cursor: default;
+		color: rgba($color: transparent, $alpha: 0.3);
+
+		&.dark {
+			color: rgba($color: white, $alpha: 0.3);
+		}
+
+		.tooltip-label {
+			cursor: default;
+		}
+	}
+
+	.tooltip-label {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+
+		cursor: pointer;
+	}
+}

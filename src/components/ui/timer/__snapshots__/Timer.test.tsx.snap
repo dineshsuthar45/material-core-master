@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Timer should render correctly 1`] = `
+<div>
+  <div
+    class="timer-wrapper"
+  >
+    <div
+      class="countdown-timer"
+      style="width: 120px; height: 120px;"
+    >
+      <svg
+        class="timer-svg"
+        fill="none"
+        height="120"
+        viewBox="0 0 34 34"
+        width="120"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="M17.1621 32C25.4464 32 32.1621 25.2843 32.1621 17C32.1621 8.71573 25.4464 2 17.1621 2C8.87784 2 2.16211 8.71573 2.16211 17C2.16211 25.2843 8.87784 32 17.1621 32ZM17.1621 33C25.9987 33 33.1621 25.8366 33.1621 17C33.1621 8.16344 25.9987 1 17.1621 1C8.32555 1 1.16211 8.16344 1.16211 17C1.16211 25.8366 8.32555 33 17.1621 33Z"
+          fill="#DFE5EB"
+          fill-rule="evenodd"
+        />
+        <circle
+          class="time-remaining"
+          cx="17"
+          cy="17"
+          r="15.5"
+          style="animation: dash 0s linear forwards; stroke: #DFE5EB;"
+        />
+      </svg>
+      <span
+        aria-hidden="true"
+        class="timer-value"
+        style="color: rgb(223, 229, 235); font-size: 32.43243243243243px;"
+      >
+        00:00
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Multiselect component all options selected 1`] = `
+<div>
+  <div
+    class="multiselect-root m-theme-light"
+  >
+    <div
+      class="m-form-control-label top"
+    >
+      <div
+        aria-label=""
+        class="m-tooltip-root tooltip-label tooltip-container"
+        data-mui-internal-clone-element="true"
+      >
+        <label>
+          Some Multiselect text here
+        </label>
+      </div>
+      <div
+        class="label-children"
+      >
+        <div
+          class="m-select"
+        >
+          <div
+            class="selected"
+          >
+            <div
+              aria-label=""
+              class="m-tooltip-root tooltip-container"
+              data-mui-internal-clone-element="true"
+            >
+              <span
+                class="selected-text"
+              >
+                <span
+                  class="placeholder"
+                >
+                  Select
+                </span>
+              </span>
+            </div>
+            <div
+              class="chevron"
+            >
+              <svg
+                class=""
+                fill="#6F7880"
+                height="10"
+                viewBox="0 0 10 10"
+                width="10"
+                xmms="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m.5 3 4.1 4.1c.2.2.3.3.4.3s.2 0 .4-.2L9.6 3a.608.608 0 0 0 0-.8.608.608 0 0 0-.8 0L5 6.1 1.2 2.3a.483.483 0 0 0-.7 0 .483.483 0 0 0 0 .7Z"
+                />
+              </svg>
+              <svg
+                class="hide"
+                fill="#6F7880"
+                height="10"
+                viewBox="0 0 10 10"
+                width="10"
+                xmms="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.6 6.5 5.4 2.3a.52.52 0 0 0-.4-.2.442.442 0 0 0-.4.2L.5 6.5a.385.385 0 0 0 0 .7.608.608 0 0 0 .8 0L5 3.4l3.8 3.8a.608.608 0 0 0 .8 0 .483.483 0 0 0 0-.7Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Multiselect component should render correctly 1`] = `
+<div>
+  <div
+    class="multiselect-root m-theme-light"
+  >
+    <div
+      class="m-form-control-label top"
+    >
+      <div
+        aria-label=""
+        class="m-tooltip-root tooltip-label tooltip-container"
+        data-mui-internal-clone-element="true"
+      >
+        <label>
+          Some Multiselect text here
+        </label>
+      </div>
+      <div
+        class="label-children"
+      >
+        <div
+          class="m-select"
+        >
+          <div
+            class="selected"
+          >
+            <div
+              aria-label=""
+              class="m-tooltip-root tooltip-container"
+              data-mui-internal-clone-element="true"
+            >
+              <span
+                class="selected-text"
+              >
+                <span
+                  class="placeholder"
+                >
+                  Select
+                </span>
+              </span>
+            </div>
+            <div
+              class="chevron"
+            >
+              <svg
+                class=""
+                fill="#6F7880"
+                height="10"
+                viewBox="0 0 10 10"
+                width="10"
+                xmms="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m.5 3 4.1 4.1c.2.2.3.3.4.3s.2 0 .4-.2L9.6 3a.608.608 0 0 0 0-.8.608.608 0 0 0-.8 0L5 6.1 1.2 2.3a.483.483 0 0 0-.7 0 .483.483 0 0 0 0 .7Z"
+                />
+              </svg>
+              <svg
+                class="hide"
+                fill="#6F7880"
+                height="10"
+                viewBox="0 0 10 10"
+                width="10"
+                xmms="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.6 6.5 5.4 2.3a.52.52 0 0 0-.4-.2.442.442 0 0 0-.4.2L.5 6.5a.385.385 0 0 0 0 .7.608.608 0 0 0 .8 0L5 3.4l3.8 3.8a.608.608 0 0 0 .8 0 .483.483 0 0 0 0-.7Z"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

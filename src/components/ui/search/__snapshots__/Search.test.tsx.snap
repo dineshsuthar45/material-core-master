@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search should render correctly 1`] = `
+<div>
+  <div
+    class="search-root"
+  >
+    <div
+      class="MuiFormControl-root MuiTextField-root textfield-root light css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+    >
+      <div
+        class="MuiInputBase-root MuiFilledInput-root MuiFilledInput-underline MuiInputBase-colorPrimary MuiInputBase-formControl MuiInputBase-adornedStart MuiInputBase-adornedEnd css-1cxkmns-MuiInputBase-root-MuiFilledInput-root"
+      >
+        <svg
+          class="adornment search"
+          data-name="Layer 1"
+          fill="#879BA6"
+          height="18"
+          viewBox="0 0 10 10"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M9.7 9.3 6.8 6.4A3.583 3.583 0 0 0 7.7 4 3.691 3.691 0 0 0 4 .3a3.7 3.7 0 1 0-.1 7.4 3.583 3.583 0 0 0 2.4-.9l2.9 2.9c.1.1.09.098.202.124a.292.292 0 0 0 .314-.12A.265.265 0 0 0 9.7 9.3ZM7 4a3.097 3.097 0 0 1-3 3.1A3.183 3.183 0 0 1 .9 4 3.116 3.116 0 0 1 4 .9 3.031 3.031 0 0 1 7 4Z"
+          />
+        </svg>
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input MuiFilledInput-input MuiInputBase-inputAdornedStart MuiInputBase-inputAdornedEnd css-1o2n4nu-MuiInputBase-input-MuiFilledInput-input"
+          id="search-input"
+          placeholder="Search"
+          type="text"
+          value=""
+        />
+        <svg
+          class="adornment reset hide"
+          data-name="Layer 1"
+          fill="#879BA6"
+          height="18"
+          viewBox="0 0 10 10"
+          width="18"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.79 4.979 9.407 1.36a.563.563 0 1 0-.796-.796L4.993 4.182 1.375.565a.563.563 0 0 0-.796.796L4.197 4.98.579 8.596a.563.563 0 0 0 .796.797l3.618-3.618 3.618 3.618a.563.563 0 0 0 .796-.797Z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
+`;

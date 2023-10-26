@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FinanceInput render amount and initial error 1`] = `
+<div>
+  <div
+    class="finance-input-root light"
+  >
+    <div
+      class="material-form-control-label top"
+    >
+      <div
+        aria-label=""
+        class="material-tooltip-root tooltip-label tooltip-container"
+        data-mui-internal-clone-element="true"
+      >
+        <label />
+      </div>
+      <div
+        class="label-children"
+      >
+        <div
+          class="container feedback"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium button-root light button left css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+            href=""
+            tabindex="0"
+            type="button"
+          >
+            -
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <div
+            class="middle"
+          >
+            <textarea
+              class="readonly-input"
+              placeholder="Size"
+              readonly=""
+              rows="1"
+            >
+              250,000
+            </textarea>
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium button-root light button right css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+            href=""
+            tabindex="0"
+            type="button"
+          >
+            +
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+        <div
+          class="feedback"
+        >
+          <ul>
+            <li>
+              Random error 1
+            </li>
+            <li>
+              Random error 2
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`FinanceInput should render correctly 1`] = `
+<div>
+  <div
+    class="finance-input-root light"
+  >
+    <div
+      class="material-form-control-label top"
+    >
+      <div
+        aria-label=""
+        class="material-tooltip-root tooltip-label tooltip-container"
+        data-mui-internal-clone-element="true"
+      >
+        <label />
+      </div>
+      <div
+        class="label-children"
+      >
+        <div
+          class="container"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium button-root light button left css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+            href=""
+            tabindex="0"
+            type="button"
+          >
+            -
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <div
+            class="middle"
+          >
+            <textarea
+              class="readonly-input"
+              placeholder="Size"
+              readonly=""
+              rows="1"
+            />
+          </div>
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium button-root light button right css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+            href=""
+            tabindex="0"
+            type="button"
+          >
+            +
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch component should render correctly 1`] = `
+<div>
+  <div
+    class="switch-root light"
+  >
+    <div
+      class="m-form-control-label end"
+    >
+      <div
+        aria-label=""
+        class="m-tooltip-root tooltip-label tooltip-container"
+        data-mui-internal-clone-element="true"
+      >
+        <label>
+          Place Order
+        </label>
+      </div>
+      <div
+        class="label-children"
+      >
+        <span
+          class="MuiSwitch-root MuiSwitch-sizeMedium css-julti5-MuiSwitch-root"
+        >
+          <span
+            class="MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-root MuiSwitch-switchBase MuiSwitch-colorSecondary css-priqlz-MuiButtonBase-root-MuiSwitch-switchBase"
+          >
+            <input
+              class="PrivateSwitchBase-input MuiSwitch-input css-1m9pwf3"
+              id="sldr1"
+              type="checkbox"
+            />
+            <span
+              class="MuiSwitch-thumb css-jsexje-MuiSwitch-thumb"
+            />
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </span>
+          <span
+            class="MuiSwitch-track css-1yjjitx-MuiSwitch-track"
+          />
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

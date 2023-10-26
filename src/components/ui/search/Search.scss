@@ -1,0 +1,93 @@
+.search-root {
+	height: 18px;
+
+	.MuiTextField-root {
+		.MuiFilledInput-root:not(.Mui-disabled) {
+			border-radius: 4px;
+
+			&:before {
+				border-bottom: none;
+			}
+
+			&:after {
+				transition: none;
+				transform: none;
+				border-bottom: none;
+			}
+
+			&:hover:after {
+				border-radius: 4px;
+				height: 100%;
+			}
+		}
+
+		.MuiFilledInput-root.Mui-disabled {
+			border-radius: 4px;
+
+			&::before {
+				border-bottom-style: none;
+			}
+
+			&:after {
+				transition: none;
+				transform: none;
+				border-bottom: none;
+			}
+
+			input {
+				background-color: transparent;
+			}
+		}
+
+		.MuiOutlinedInput-root {
+			&.Mui-focused {
+				.MuiOutlinedInput-notchedOutline {
+					border-width: 1px;
+				}
+			}
+
+			&:hover .MuiOutlinedInput-notchedOutline {
+				border-width: 1px;
+			}
+		}
+
+		.MuiInput-root {
+			&:before {
+				border-bottom: none;
+			}
+
+			&:after {
+				transition: none;
+				transform: none;
+			}
+		}
+	}
+
+	.adornment {
+		cursor: pointer;
+		&.search {
+			padding-right: 5px;
+		}
+
+		&.reset {
+			padding-left: 5px;
+
+			&.hide {
+				visibility: hidden;
+			}
+		}
+	}
+
+	.Mui-disabled {
+		pointer-events: none;
+	}
+
+	input {
+		padding: 0px;
+
+		&::placeholder {
+			color: var(--m-colour-greyScale-400);
+			opacity: 1;
+		}
+	}
+}

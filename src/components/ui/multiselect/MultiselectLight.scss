@@ -1,0 +1,59 @@
+.multiselect-root {
+	.MuiFormControlLabel-label {
+		color: var(--m-colour-greyScale-500);
+	}
+
+	&.m-theme-light {
+		&.disabled {
+			pointer-events: none;
+
+			.selected.disabled {
+				border-color: rgba(0, 0, 0, 0.3);
+			}
+
+			.placeholder.disabled {
+				color: rgba(0, 0, 0, 0.3);
+			}
+
+			.chevron.disabled {
+				svg {
+					fill: rgba(0, 0, 0, 0.3);
+				}
+			}
+		}
+
+		.selected {
+			&::before {
+				border-color: var(--m-colour-greyScale-200);
+			}
+
+			&:hover:not(.disabled):not(.menu-open) {
+				&::before {
+					border-bottom: 2px solid rgba(0, 0, 0, 0.87);
+					transition: border-bottom-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+				}
+			}
+
+			&.menu-open::before {
+				border-color: var(--m-colour-blue);
+			}
+		}
+
+		.placeholder,
+		.chevron {
+			color: var(--m-colour-greyScale-400);
+		}
+
+		.options {
+			.option {
+				&:hover {
+					background-color: var(--m-colour-greyScale-50);
+				}
+
+				.MuiFormControlLabel-label {
+					color: black;
+				}
+			}
+		}
+	}
+}

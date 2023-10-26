@@ -1,0 +1,67 @@
+.tabs-root {
+	&.vertical {
+		display: flex;
+		flex-grow: 1;
+
+		.MuiTabs-vertical {
+			border-right: 1px solid transparent;
+			border-color: var(--m-colour-greyScale-200);
+		}
+
+		&.flip {
+			flex-direction: row-reverse;
+
+			.MuiTabs-vertical {
+				border-right: none;
+				border-left: 1px solid transparent;
+				border-color: var(--m-colour-greyScale-200);
+			}
+
+			.MuiTabs-indicator {
+				left: 0px;
+			}
+		}
+	}
+
+	&.dark {
+		.MuiTabs-vertical {
+			border-color: var(--m-colour-greyScale-600);
+		}
+
+		&.flip {
+			.MuiTabs-vertical {
+				border-right: none;
+				border-left: 1px solid transparent;
+				border-color: var(--m-colour-greyScale-600);
+			}
+		}
+	}
+
+	.medium {
+		&,
+		.MuiButtonBase-root.MuiTab-root {
+			min-height: 36px;
+			padding: 0px;
+		}
+
+		button {
+			font-size: 13px;
+		}
+
+		.MuiTabs-indicator {
+			padding-bottom: 3px;
+		}
+	}
+
+	.small {
+		&,
+		.MuiButtonBase-root.MuiTab-root {
+			min-height: 30px;
+			padding: 0px;
+		}
+
+		button {
+			font-size: 11px;
+		}
+	}
+}
